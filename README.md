@@ -1,4 +1,8 @@
-
+import math
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
+import streamlit as st
 
 # =============================================================================
 # CONFIGURAÇÃO DA PÁGINA
@@ -320,9 +324,3 @@ with aba2:
 
         st.markdown("##### 📈 Curva de Evolução Patrimonial")
         st.line_chart(df_res['banca_acumulada'])
-
-pandas
-numpy
-scipy
-
-
